@@ -358,7 +358,7 @@ Geekhub获取cookie = type=http-request,pattern=^https:\/\/geekhub\.com\/checkin
 iklear_cookie = type=http-request,pattern=^https:\/\/shop42867343\.youzan\.com\/wscump\/checkin\/checkin\.json,script-path=https://raw.githubusercontent.com/LJJJia/script/master/iklear/iklear_cookie.js
 
 # > 梨涡签到领现金
-梨涡签到领现金Cookie = type=http-request,pattern=https:\/\/api\.m\.jd\.com\/api\/v1\/sign\/doSign,script-path=https://raw.githubusercontent.com/iisams/Scripts/master/liwo/7dayscookie.js
+梨涡签到领现金Cookie = type=http-request,pattern=https:\/\/api\.m\.jd\.com\/api\/v1\/sign\/doSign,script-path=https://raw.githubusercontent.com/wangdelu2020/hongliyu/master/liwosign.js
 
 
 
