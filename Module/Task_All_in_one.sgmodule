@@ -190,6 +190,7 @@ WPS = type=cron,cronexp=35 3 0 * * *,script-path=https://raw.githubusercontent.c
 # 智行火车
 # 打开 APP 手动签到一次: 访问下右下角 `个人中心` > `签到`
 智行火车 = type=cron,cronexp=45 3 0 * * *,script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/zxhc/zxhc.js,script-update-interval=0
+
 # 苏宁易购
 # 首页 > 签到有礼
 # 首页 > 领取红包
@@ -262,10 +263,6 @@ WPS = type=cron,cronexp=35 3 0 * * *,script-path=https://raw.githubusercontent.c
 # > 工银e生活 (By @barrymchen)
 # App首页“欢趣签到”,手动签到1次
 # 工银e生活 = type=cron,cronexp=15 5 0 * * *,script-path=https://raw.githubusercontent.com/nzw9314/QuantumultX/master/Task/icbc_sign.js,script-update-interval=0
-
-# > 微信小程序-同程艺龙 (By @barrymchen)
-微信小程序-同程艺龙 = type=cron,cronexp=20 5 0 * * *,script-path=https://raw.githubusercontent.com/nzw9314/QuantumultX/master/Task/tongc_sign.js,script-update-interval=0
-微信小程序-同程艺龙info.js = type=cron,cronexp=20 5 0 * * *,script-path=https://raw.githubusercontent.com/nzw9314/QuantumultX/master/Task/tongc_info.js,script-update-interval=0
 
 # > 京东到家 (@barrymchen, @GideonSenku & @Macsuny)
 # APP登陆账号后，点击主页’签到‘,即可
