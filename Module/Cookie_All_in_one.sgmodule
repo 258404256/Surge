@@ -240,7 +240,7 @@ iklear_cookie = type=http-request,pattern=^https:\/\/shop42867343\.youzan\.com\/
 趣制作 = type=http-response,pattern=https://cm.szsszykj.com/interface/GetVip.php,script-path=https://raw.githubusercontent.com/ddgksf2013/Cuttlefish/master/Crack/qzz.js
 
 # > 老胡工具箱 微信小程序解除隐藏内容 （20200916）
-老胡工具箱 = type=http-response,pattern=https://d.syshhc.top/wp-json/wp/v2/*,script-path=https://raw.githubusercontent.com/ddgksf2013/Cuttlefish/master/Crack/xcx.js,tag=老胡工具箱
+老胡工具箱 = type=http-response,pattern=https://d.syshhc.top/wp-json/wp/v2/*,script-path=https://raw.githubusercontent.com/ddgksf2013/Cuttlefish/master/Crack/xcx.js
 
 # > 一言 解锁终身会员 （20200916）Attention:登录使用
 一言 = type=http-response,pattern=http://115.28.168.103:8080/yiyan/*,script-path=https://raw.githubusercontent.com/ddgksf2013/Cuttlefish/master/Crack/yiyan.js
