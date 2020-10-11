@@ -393,7 +393,7 @@ Zaker = type=cron,cronexp=55 3 0 * * *,script-path=https://raw.githubusercontent
 
 # > 特仑苏 (By 红鲤鱼与绿鲤鱼与驴)
 # 点击进入"特仑苏向往的生活"小程序授权登录后点击放牧获取ck
-特仑苏=type=cron,cronexp=28 9 * * *,wake-system=1,script-path=https://raw.githubusercontent.com/nzw9314/QuantumultX/master/Task/tls_task.js
+# 特仑苏=type=cron,cronexp=28 9 * * *,wake-system=1,script-path=https://raw.githubusercontent.com/nzw9314/QuantumultX/master/Task/tls_task.js
 
 # > 无忧行
 # 1.打开无忧行App, 通知成功写入「 AccountID | UserID | Mobile | Token 」.
@@ -403,10 +403,6 @@ Zaker = type=cron,cronexp=55 3 0 * * *,script-path=https://raw.githubusercontent
 # > 太好购(By id77)
 # 进入小程序点-我的
 太好购=type=cron,cronexp=0 1 * * *,wake-system=1,script-path=https://raw.githubusercontent.com/id77/QuantumultX/master/task/thg.js
-
-# > 网易游戏会员签到(By id77)
-# 点击保守/运气签到，会一直使用对应类型签到，自主选择
-网易游戏会员签到=type=cron,cronexp=2 1 * * *,wake-system=1,script-path=https://raw.githubusercontent.com/id77/QuantumultX/master/task/163GameVip.js
 
 # > GeekHub(By id77)
 # 签到一次获取 cookie
