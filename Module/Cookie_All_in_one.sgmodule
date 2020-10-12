@@ -233,23 +233,6 @@ iklear_cookie = type=http-request,pattern=^https:\/\/shop42867343\.youzan\.com\/
 # > 梨涡签到领现金
 梨涡签到领现金Cookie = type=http-request,pattern=https:\/\/api\.m\.jd\.com\/api\/v1\/sign\/doSign,script-path=https://raw.githubusercontent.com/wangdelu2020/hongliyu/master/liwosign.js
 
-# > 大象冥想 解锁会员音乐（20200904）
-大象冥想 = type=http-response,pattern=^https?:\/\/nmeditation\.snailsleep\.net\/meditation-(audio|user|order|audio)\/(api|user)\/(audio\/master\/detail|get\/info|order/user\/vip\/info|ad\/get),script-path=https://raw.githubusercontent.com/ddgksf2013/Cuttlefish/master/Crack/dxmx.js
-
-# > 趣制作 解锁会员模板视频（20200925）Attention：登录使用
-趣制作 = type=http-response,pattern=https://cm.szsszykj.com/interface/GetVip.php,script-path=https://raw.githubusercontent.com/ddgksf2013/Cuttlefish/master/Crack/qzz.js
-
-# > 老胡工具箱 微信小程序解除隐藏内容 （20200916）
-老胡工具箱 = type=http-response,pattern=https://d.syshhc.top/wp-json/wp/v2/*,script-path=https://raw.githubusercontent.com/ddgksf2013/Cuttlefish/master/Crack/xcx.js
-
-# > 一言 解锁终身会员 （20200916）Attention:登录使用
-一言 = type=http-response,pattern=http://115.28.168.103:8080/yiyan/*,script-path=https://raw.githubusercontent.com/ddgksf2013/Cuttlefish/master/Crack/yiyan.js
-
-# > done 解锁会员功能 PRO （20200914）Attention：登录使用
-done = type=http-response,pattern=http://dbapi.ganbuguo.com/user/userinfo,script-path=https://raw.githubusercontent.com/ddgksf2013/Cuttlefish/master/Crack/done.js
-
-# 蜗牛睡眠会员（by 黑黑酱）
-蜗牛睡眠 = type=http-response,pattern=^https:\/\/(snailsleep\.net\/|(music|community)\.snailsleep\.net\/)(snail\/v1\/profile\/get|snail-music\/music\/(sleeping|meditation)\/single\/list),script-path=https://raw.githubusercontent.com/ddgksf2013/Cuttlefish/master/Crack/wnsm.js
 
 
 
