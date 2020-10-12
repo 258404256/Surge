@@ -27,7 +27,7 @@ Tasks: 京东签到 = type=cron,cronexp=4 0 * * *,script-path=https://raw.github
 Tasks: 京喜签到 = type=cron,cronexp=1 9 * * *,script-path=https://raw.githubusercontent.com/Sunert/Scripts/master/Task/jingxi.js,wake-system=true
 Tasks: 梨涡签到领现金 = type=cron,cronexp=2 9,10 * * *,script-path=https://raw.githubusercontent.com/wangdelu2020/hongliyu/master/liwosign.js,wake-system=true
 Tasks: 滴滴出行 = type=cron,cronexp=0 6 0 * * *,script-path=https://raw.githubusercontent.com/Tartarus2014/Script/master/DiDi.js,wake-system=true
-Tasks: 滴滴出行 = type=cron,cronexp=0 59 23 * * *,script-path=script-path=https://raw.githubusercontent.com/zZPiglet/Task/master/DiDi/DiDi_reward.js,wake-system=true
+Tasks: 滴滴出行 = type=cron,cronexp=0 59 23 * * *,script-path=https://raw.githubusercontent.com/zZPiglet/Task/master/DiDi/DiDi_reward.js,wake-system=true
 Tasks: 电视家 = type=cron,cronexp=0 0 7,22 * * *,script-path=https://raw.githubusercontent.com/Sunert/Scripts/master/Task/dianshijia.js,wake-system=true
 Tasks: 饿了么 = type=cron,cronexp=35 4 0 * * *,script-path=https://raw.githubusercontent.com/songyangzz/QuantumultX/master/elem/elemSign.js
 Tasks: 饿了么-打卡领红包= type=cron,cronexp=35 4 0 * * *,script-path=https://raw.githubusercontent.com/zZPiglet/Task/master/elem/elemCheckIn.js
