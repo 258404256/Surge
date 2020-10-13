@@ -36,7 +36,6 @@ Tasks: 百果园 = type=cron,cronexp=10 0 * * *,script-path=https://raw.githubus
 Tasks: 南方周末 = type=cron,cronexp=10 0 * * *,script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/nfzm/nfzm.js,wake-system=true
 Tasks: 奈雪 =type=cron,cronexp=35 5 0 * * *,script-path=https://raw.githubusercontent.com/zZPiglet/Task/master/Naixue/Naixue.js
 Tasks: 彩云天气 = type=cron,cronexp=0 0-21/3 * * *,script-path=https://raw.githubusercontent.com/Peng-YM/QuanX/master/Tasks/caiyun.js
-Tasks: 115 = type=cron,cronexp=2 0 * * *,script-path=https://raw.githubusercontent.com/zZPiglet/Task/master/115/115.js
 Tasks: 便利蜂 =type=cron,cronexp=35 5 0 * * *,script-path=https://raw.githubusercontent.com/zZPiglet/Task/master/Blibee/Blibee.js
 Tasks: 无忧行签到 = type=cron,cronexp=4 9 * * *,script-path=https://ooxx.be/js/jegotrip.js
 Tasks: 携程旅行 = type=cron,cronexp=45 4 0 * * *,script-path=https://raw.githubusercontent.com/nzw9314/QuantumultX/master/Task/ctrip.js
@@ -53,7 +52,6 @@ Tasks: 微信小程序打卡签到 = type=cron,cronexp=0 30 6-11 * * ?,script-pa
 Rewrite: Wps.js = requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/NobyDa/Script/master/Surge/JS/Wps.js,type=http-response,pattern=^https://account.wps.*/api/users/
 Rewrite: JD_DailyBonus.js = type=http-request,pattern=https:\/\/api\.m\.jd\.com\/client\.action.*functionId=signBean,script-path=https://raw.githubusercontent.com/NobyDa/Script/master/JD-DailyBonus/JD_DailyBonus.js
 Rewrite: 滴滴出行cookie = script-path=https://raw.githubusercontent.com/zZPiglet/Task/master/DiDi/DiDi.js,type=http-request,pattern=^https:\/\/as\.xiaojukeji\.com\/ep\/as\/toggles\?
-Rewrite: 115cookie = type=http-request, pattern=^https?:\/\/proapi\.115\.com\/ios\/user\/takespc\?, script-path=https://raw.githubusercontent.com/zZPiglet/Task/master/115/115.js,requires-header=true,timeout=30
 Rewrite: 奈雪cookie = script-path=https://raw.githubusercontent.com/zZPiglet/Task/master/Naixue/Naixue.js,type=http-request,pattern=^https:\/\/webapi\.qmai\.cn\/web\/cy\/v\d\/store\/template-scene
 Rewrite: 便利蜂cookie = script-path=https://raw.githubusercontent.com/zZPiglet/Task/master/Blibee/Blibee.js,type=http-request,pattern=^https:\/\/h5\.bianlifeng\.com\/meepo\/taskCenter\/home\/v\d
 Rewrite: 电视家cookie = type=http-request,pattern=http:\/\/api\.gaoqingdianshi\.com\/api\/v\d\/sign\/signin,script-path=https://raw.githubusercontent.com/Sunert/Scripts/master/Task/dianshijia.js
@@ -78,4 +76,4 @@ Rewrite: wxdaka.js = type=http-request, pattern=https:\/\/(www\.baimaa\.com|www\
 
 
 [MITM]
-hostname = %INSERT% account.wps.*, api.m.jd.com, wq.jd.com, as.xiaojukeji.com, webapi.qmai.cn, h5.bianlifeng.com, h5.ele.me, webapi.qmai.cn, wx-mini.pagoda.com.cn, api.infzm.com, clientaccess.10086.cn, proapi.115.com, weather-data.apple.com, api.weather.com, app*.jegotrip.com.cn, task.jegotrip.com.cn, m.ctrip.com, *.feng.com, wapside.189.cn:9001, activity-1.m.duiba.com.cn, gameapi.hellobike.com, www.2xtj7.cn,www.baimaa.com,www.hnmiaosu.cc,ph0001.hezyq.com,wq.02gk.com,dk.ne72.com
+hostname = %INSERT% account.wps.*, api.m.jd.com, wq.jd.com, as.xiaojukeji.com, webapi.qmai.cn, h5.bianlifeng.com, h5.ele.me, webapi.qmai.cn, wx-mini.pagoda.com.cn, api.infzm.com, clientaccess.10086.cn, weather-data.apple.com, api.weather.com, app*.jegotrip.com.cn, task.jegotrip.com.cn, m.ctrip.com, *.feng.com, wapside.189.cn:9001, activity-1.m.duiba.com.cn, gameapi.hellobike.com, www.2xtj7.cn,www.baimaa.com,www.hnmiaosu.cc,ph0001.hezyq.com,wq.02gk.com,dk.ne72.com
