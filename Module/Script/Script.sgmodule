@@ -3,12 +3,12 @@
 
 [Script]
 
-Rewrite: 酷我音乐.js = requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/NobyDa/Script/master/Surge/JS/Kuwo.js,script-update-interval=0,pattern=https?:\/\/vip1\.kuwo\.cn\/(vip\/v2\/user\/vip|vip\/spi/mservice),type=http-response
-Rewrite: 小小影视.js = requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/Gx3dong/Surge/master/JS/xxys.js,script-update-interval=0,pattern=https:\/\/.*\.xxjjappss\.com\/(vod\/reqplay\/|ucp/index|getGlobalData),type=http-response
-Rewrite: Wps.js = requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/NobyDa/Script/master/Surge/JS/Wps.js,type=http-response,pattern=^https://account.wps.*/api/users/
-Rewrite: 大象冥想.js = requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/photonmang/quantumultX/master/dxmx.js, type=http-response,pattern=^https?:\/\/nmeditation\.snailsleep\.net\/meditation-(audio|user|order|audio)\/(api|user)\/(audio\/master\/detail|get\/info|order/user\/vip\/info|ad\/get)
-Rewrite: 蜗牛睡眠.js = requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/photonmang/quantumultX/master/wnsm.js,type=http-response,pattern=^https:\/\/(snailsleep\.net\/|(music|community)\.snailsleep\.net\/)(snail\/v1\/profile\/get|snail-music\/music\/(sleeping|meditation)\/single\/list)
-Rewrite: VUE-Vlog.js = requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/NobyDa/Script/master/Surge/JS/VUE.js, type=http-response,pattern=https:\/\/api\.vuevideo\.net\/api\/v1\/(users\/.+\/profile|subtitle\/prepare)
+Rewrite: 酷我音乐.js = requires-body=true,max-size=0,script-path=https://raw.githubusercontent.com/NobyDa/Script/master/Surge/JS/Kuwo.js,script-update-interval=0,pattern=https?:\/\/vip1\.kuwo\.cn\/(vip\/v2\/user\/vip|vip\/spi/mservice),type=http-response
+Rewrite: 小小影视.js = requires-body=true,max-size=0,script-path=https://raw.githubusercontent.com/Gx3dong/Surge/master/JS/xxys.js,script-update-interval=0,pattern=https:\/\/.*\.xxjjappss\.com\/(vod\/reqplay\/|ucp/index|getGlobalData),type=http-response
+Rewrite: Wps.js = requires-body=true,max-size=0,script-path=https://raw.githubusercontent.com/NobyDa/Script/master/Surge/JS/Wps.js,type=http-response,pattern=^https://account.wps.*/api/users/
+Rewrite: 大象冥想.js = requires-body=true,max-size=0,script-path=https://raw.githubusercontent.com/photonmang/quantumultX/master/dxmx.js, type=http-response,pattern=^https?:\/\/nmeditation\.snailsleep\.net\/meditation-(audio|user|order|audio)\/(api|user)\/(audio\/master\/detail|get\/info|order/user\/vip\/info|ad\/get)
+Rewrite: 蜗牛睡眠.js = requires-body=true,max-size=0,script-path=https://raw.githubusercontent.com/photonmang/quantumultX/master/wnsm.js,type=http-response,pattern=^https:\/\/(snailsleep\.net\/|(music|community)\.snailsleep\.net\/)(snail\/v1\/profile\/get|snail-music\/music\/(sleeping|meditation)\/single\/list)
+Rewrite: VUE-Vlog.js = requires-body=true,max-size=0,script-path=https://raw.githubusercontent.com/NobyDa/Script/master/Surge/JS/VUE.js, type=http-response,pattern=https:\/\/api\.vuevideo\.net\/api\/v1\/(users\/.+\/profile|subtitle\/prepare)
 
 
 
