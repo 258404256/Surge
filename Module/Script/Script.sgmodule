@@ -16,4 +16,4 @@ Rewrite: 蜗牛睡眠.js = requires-body=1,max-size=0,script-path=https://raw.gi
 
 
 [MITM]
-hostname = %INSERT% *.kuwo.cn, *.xxjjappss.com, account.wps.*, snailsleep.net,music.snailsleep.net,community.snailsleep.net, nmeditation.snailsleep.net
+hostname = %INSERT% *.kuwo.cn, *.xxjjappss.com, account.wps.*, snailsleep.net, *.snailsleep.net
