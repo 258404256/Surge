@@ -46,7 +46,7 @@ Tasks: 世界时间 = script-path=https://raw.githubusercontent.com/nzw9314/Quan
 Tasks: 每日一句+蚂蚁森林收能量 = script-path=https://raw.githubusercontent.com/nzw9314/QuantumultX/master/yichahucha/cron_daily.js,type=cron,cronexp=0 30 7 * * *
 Tasks: 一言+历史上的今天 = script-path=https://raw.githubusercontent.com/nzw9314/QuantumultX/master/Meeta/Surge/Scripting/Calendar.js,type=cron,cronexp=0 0 8 * * *
 Tasks: 海底捞 = type=cron,cronexp=25 3 0 * * *,script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/haidilao/hdl.js
-Tasks: 微信小程序打卡签到 = type=cron,cronexp=1,35 6-11 * * *,script-path=https://raw.githubusercontent.com/wangdelu2020/hongliyu/master/wxdaka.js
+Tasks: 微信小程序打卡签到 = type=cron,cronexp=0 30 6-11 * * ?,script-path=https://raw.githubusercontent.com/wangdelu2020/hongliyu/master/wxdaka.js
 
 
 
@@ -73,6 +73,7 @@ Rewrite: 10000.cookie.js = script-path=https://raw.githubusercontent.com/chavyle
 Rewrite: hdl.js = requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/haidilao/hdl.js,type=http-request,pattern=^https:\/\/activity-1\.m\.duiba\.com\.cn\/signactivity\/doSign$
 Rewrite: hellobike.js = script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/hellobike/hellobike.js,requires-body=true,type=http-request,pattern=^https:\/\/gameapi\.hellobike\.com\/api
 Rewrite: wxdaka.js = script-path=https://raw.githubusercontent.com/wangdelu2020/hongliyu/master/wxdaka.js,requires-body=true,type=http-request,pattern=https:\/\/(www\.baimaa\.com|www\.2xtj7\.cn|www\.hnmiaosu\.cc|ph0001\.hezyq\.com|wq\.02gk\.com|dk\.ne72\.com)\/app\/index\.php?, requires-header=true, timeout=30
+Rewrite: wxdaka.js = type=http-request, pattern=https:\/\/(www\.baimaa\.com|www\.2xtj7\.cn|www\.hnmiaosu\.cc|ph0001\.hezyq\.com|wq\.02gk\.com|dk\.ne72\.com)\/app\/index\.php?,script-path=https://raw.githubusercontent.com/wangdelu2020/hongliyu/master/wxdaka.js, requires-header=true, timeout=30
 
 
 
