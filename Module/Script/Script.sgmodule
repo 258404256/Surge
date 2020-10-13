@@ -8,7 +8,7 @@ Rewrite: 小小影视.js = requires-body=1,max-size=0,script-path=https://raw.gi
 Rewrite: Wps.js = requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/NobyDa/Script/master/Surge/JS/Wps.js,type=http-response,pattern=^https://account.wps.*/api/users/
 Rewrite: 大象冥想.js = requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/photonmang/quantumultX/master/dxmx.js, type=http-response,pattern=^https?:\/\/nmeditation\.snailsleep\.net\/meditation-(audio|user|order|audio)\/(api|user)\/(audio\/master\/detail|get\/info|order/user\/vip\/info|ad\/get)
 Rewrite: 蜗牛睡眠.js = requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/photonmang/quantumultX/master/wnsm.js,type=http-response,pattern=^https:\/\/(snailsleep\.net\/|(music|community)\.snailsleep\.net\/)(snail\/v1\/profile\/get|snail-music\/music\/(sleeping|meditation)\/single\/list)
-
+Rewrite: VUE-Vlog.js = requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/NobyDa/Script/master/Surge/JS/VUE.js, type=http-response,pattern=https:\/\/api\.vuevideo\.net\/api\/v1\/(users\/.+\/profile|subtitle\/prepare)
 
 
 
@@ -16,4 +16,4 @@ Rewrite: 蜗牛睡眠.js = requires-body=1,max-size=0,script-path=https://raw.gi
 
 
 [MITM]
-hostname = %INSERT% *.kuwo.cn, *.xxjjappss.com, account.wps.*, snailsleep.net, music.snailsleep.net, community.snailsleep.net, nmeditation.snailsleep.net
+hostname = %INSERT% *.kuwo.cn, *.xxjjappss.com, account.wps.*, snailsleep.net, music.snailsleep.net, community.snailsleep.net, nmeditation.snailsleep.net, api.vuevideo.net
