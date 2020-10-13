@@ -8,14 +8,11 @@ Rewrite: 小小影视.js = requires-body=1,max-size=0,script-path=https://raw.gi
 Rewrite: Wps.js = requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/NobyDa/Script/master/Surge/JS/Wps.js,type=http-response,pattern=^https://account.wps.*/api/users/
 Rewrite: VUE-Vlog.js = requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/NobyDa/Script/master/Surge/JS/VUE.js, type=http-response,pattern=https:\/\/api\.vuevideo\.net\/api\/v1\/(users\/.+\/profile|subtitle\/prepare)
 Rewrite: 蜗牛睡眠.js = type=http-response,pattern=^https:\/\/(snailsleep\.net\/|(music|community)\.snailsleep\.net\/)(snail\/v1\/profile\/get|snail-music\/music\/(sleeping|meditation)\/single\/list),requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/photonmang/quantumultX/master/wnsm.js,script-update-interval=0
-Rewrite: 大象冥想.js = type=http-response,pattern=^https?:\/\/nmeditation\.snailsleep\.net\/meditation-(audio|user|order|audio)\/(api|user)\/(audio\/master\/detail|get\/info|order/user\/vip\/info|ad\/get),requires-body=1,max-size=-1,script-path=https://raw.githubusercontent.com/photonmang/quantumultX/master/dxmx.js,script-update-interval=0
-Rewrite: 美颜相机.js = requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/nzw9314/QuantumultX/master/Script/myxj.js,type=http-response,pattern=^https:\/\/api\.meiyan\.com\/iap\/verify\.json
-Rewrite: XMind思维导图.js = requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/nzw9314/QuantumultX/master/Script/XMind.js,type=http-response,pattern=https:\/\/www\.xmind\.cn\/\_res\/devices
-
-
-
+Rewrite: 爱美剧.js = type=http-response,pattern=^https?:\/\/api.bjxkhc.com\/index\.php\/app\/ios\/(vod\/show|(user|vod|topic|type)\/index),requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/NobyDa/Script/master/QuantumultX/File/aimeiju.js,script-update-interval=0
+Rewrite: 一言.js = type=http-response,pattern=http://115.28.168.103:8080/yiyan/*,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/ddgksf2013/Cuttlefish/master/Crack/yiyan.js,script-update-interval=0
+Rewrite: 趣制作.js = type=http-response,pattern=^https://cm.szsszykj.com/interface/GetVip.php,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/ddgksf2013/Cuttlefish/master/Crack/qzz.js,script-update-interval=0
 
 
 
 [MITM]
-hostname = %INSERT% *.kuwo.cn, *.xxjjappss.com, account.wps.*, api.vuevideo.net, snailsleep.net, music.snailsleep.net, community.snailsleep.net, nmeditation.snailsleep.net, api.meiyan.com, www.xmind.cn
+hostname = %INSERT% *.kuwo.cn, *.xxjjappss.com, account.wps.*, api.vuevideo.net, snailsleep.net, music.snailsleep.net, community.snailsleep.net, api.bjxkhc.com, cm.szsszykj.com
