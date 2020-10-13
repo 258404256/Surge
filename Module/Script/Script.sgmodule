@@ -12,8 +12,8 @@ Rewrite: 爱美剧.js = type=http-response,pattern=^https?:\/\/api.bjxkhc.com\/i
 Rewrite: 一言.js = type=http-response,pattern=http://115.28.168.103:8080/yiyan/*,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/ddgksf2013/Cuttlefish/master/Crack/yiyan.js,script-update-interval=0
 Rewrite: 趣制作.js = type=http-response,pattern=^https://cm.szsszykj.com/interface/GetVip.php,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/ddgksf2013/Cuttlefish/master/Crack/qzz.js,script-update-interval=0
 Rewrite: 网易蜗牛读书.js = type=http-response,pattern=^https?:\/\/p\.du\.163\.com\/gain\/readtime\/info\.json,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/NobyDa/Script/master/QuantumultX/File/wnyd.js,script-update-interval=0
-
+Rewrite: 扫描全能王.js = type=http-response,pattern=^https:\/\/(api|api-cs)\.intsig\.net\/purchase\/cs\/query_property\?,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/NobyDa/Script/master/Surge/JS/CamScanner.js,script-update-interval=0
 
 
 [MITM]
-hostname = %INSERT% *.kuwo.cn, *.xxjjappss.com, account.wps.*, api.vuevideo.net, snailsleep.net, music.snailsleep.net, community.snailsleep.net, api.bjxkhc.com, cm.szsszykj.com, p.du.163.com
+hostname = %INSERT% *.kuwo.cn, *.xxjjappss.com, account.wps.*, api.vuevideo.net, snailsleep.net, music.snailsleep.net, community.snailsleep.net, api.bjxkhc.com, cm.szsszykj.com, p.du.163.com, ap*.intsig.net
