@@ -22,7 +22,6 @@ Tasks: 苏宁易购 = type=cron,cronexp=7 0 * * *,script-path=https://raw.github
 Tasks: 顺丰速运 = type=cron,cronexp=6 0 * * *,script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/sfexpress/sfexpress.js,wake-system=true
 Tasks: 网易云音乐 = type=cron,cronexp=1 7 * * *,script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/neteasemusic/neteasemusic.js,wake-system=true
 Tasks: 字幕组 = type=cron,cronexp=3 0 * * *,script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/zimuzu/zimuzu.js,wake-system=true
-Tasks: 京东签到 = type=cron,cronexp=4 0 * * *,script-path=https://raw.githubusercontent.com/NobyDa/Script/master/JD-DailyBonus/JD_DailyBonus.js,wake-system=true
 Tasks: 京喜签到 = type=cron,cronexp=1 9 * * *,script-path=https://raw.githubusercontent.com/Sunert/Scripts/master/Task/jingxi.js,wake-system=true
 Tasks: 滴滴出行 = type=cron,cronexp=0 6 0 * * *,script-path=https://raw.githubusercontent.com/Tartarus2014/Script/master/DiDi.js,wake-system=true
 Tasks: 滴滴出行 = type=cron,cronexp=0 59 23 * * *,script-path=https://raw.githubusercontent.com/zZPiglet/Task/master/DiDi/DiDi_reward.js,wake-system=true
