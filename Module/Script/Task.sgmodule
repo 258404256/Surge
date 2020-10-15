@@ -4,74 +4,74 @@
 
 [Script]
 Tasks: 京东多合一签到 = type=cron,cronexp=4 0 * * *,wake-system=1,timeout=20,script-path=https://raw.githubusercontent.com/NobyDa/Script/master/JD-DailyBonus/JD_DailyBonus.js
-Tasks: 京东到家 = type=cron,cronexp=25 5 0 * * *,script-path=https://raw.githubusercontent.com/Sunert/Scripts/master/Task/jddj.js
-Tasks: 来客有礼 = type=cron,cronexp=30 5 0 * * *,script-path=https://raw.githubusercontent.com/Sunert/Scripts/master/Task/lkyl.js
-Tasks: 东东农场 = type=cron,cronexp="5 6-18/6 * * *",timeout=120,script-path=https://raw.githubusercontent.com/lxk0301/scripts/master/jd_fruit.js
-Tasks: 东东萌宠 = type=cron,cronexp="5 6-18/6 * * *",timeout=120,script-path=https://raw.githubusercontent.com/lxk0301/scripts/master/jd_pet.js
-Tasks: 京东种豆得豆 = type=cron,cronexp="1 7-21/2 * * *",timeout=120,script-path=https://raw.githubusercontent.com/lxk0301/scripts/master/jd_plantBean.js
-Tasks: 天天加速 = type=cron,cronexp="8 */3 * * *",timeout=20,script-path=https://raw.githubusercontent.com/lxk0301/scripts/master/jd_speed.js
-Tasks: 京东摇钱树 = type=cron,cronexp="3 */2 * * *",timeout=20,script-path=https://raw.githubusercontent.com/lxk0301/scripts/master/jd_moneyTree.js
-Tasks: 京东宠汪汪 = type=cron,cronexp="15 */2 * * *",timeout=20,script-path=https://raw.githubusercontent.com/lxk0301/scripts/master/jd_joy.js
-Tasks: 宠汪汪偷好友积分与狗粮 = type=cron,cronexp="0 0,6 * * *",timeout=320,script-path=https://raw.githubusercontent.com/lxk0301/scripts/master/jd_joy_steal.js
-Tasks: 京东宠汪汪喂食 = type=cron,cronexp="15 */1 * * *",timeout=20,script-path=https://raw.githubusercontent.com/lxk0301/scripts/master/jd_joy_feedPets.js
-Tasks: 宠汪汪积分兑换奖品 = type=cron,cronexp="0 0-16/8 * * *",timeout=20,script-path=https://raw.githubusercontent.com/lxk0301/scripts/master/jd_joy_reward.js
-Tasks: 京小超 = type=cron,cronexp="11 1-23/5 * * *",timeout=320,script-path=https://raw.githubusercontent.com/lxk0301/scripts/master/jd_superMarket.js
-Tasks: 京小超领蓝币 = type=cron,cronexp="0 0 0 * * *",timeout=20,script-path=https://raw.githubusercontent.com/lxk0301/scripts/master/jd_blueCoin.js
-Tasks: 进店领豆 = type=cron,cronexp="10 0 * * *",timeout=20,script-path=https://raw.githubusercontent.com/lxk0301/scripts/master/jd_shop.js
-Tasks: 宠汪汪邀请助力与赛跑助力 = type=cron,cronexp=15 10 * * *,timeout=300,script-path=https://raw.githubusercontent.com/lxk0301/scripts/master/jd_joy_run.js,script-update-interval=0
-Tasks: 取关京东店铺商品 = type=cron,cronexp="55 23 * * *",timeout=20,script-path=https://raw.githubusercontent.com/lxk0301/scripts/master/jd_unsubscribe.js
-Tasks: 摇京豆 = type=cron,cronexp="5 0 * * *",timeout=20,script-path=https://raw.githubusercontent.com/lxk0301/scripts/master/jd_club_lottery.js
-Tasks: 京东全民开红包 = type=cron,cronexp=1 1 * * *,timeout=20,script-path=https://raw.githubusercontent.com/lxk0301/scripts/master/jd_redPacket.js,script-update-interval=0
-Tasks: 叮咚买菜 = type=cron,cronexp=55 2 0 * * *,script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/mcdd/mcdd.js,script-update-interval=0
-Tasks: 叮咚农场养鱼=type=cron,cronexp="1 8,12,17 * * *",script-path=https://raw.githubusercontent.com/iepngs/Script/master/dingdong/index.js,timeout=600,script-update-interval=0
+Tasks: 京东到家 = type=cron,cronexp=25 5 0 * * *,wake-system=1,script-path=https://raw.githubusercontent.com/Sunert/Scripts/master/Task/jddj.js
+Tasks: 来客有礼 = type=cron,cronexp=30 5 0 * * *,wake-system=1,script-path=https://raw.githubusercontent.com/Sunert/Scripts/master/Task/lkyl.js
+Tasks: 东东农场 = type=cron,cronexp="5 6-18/6 * * *",wake-system=1,timeout=120,script-path=https://raw.githubusercontent.com/lxk0301/scripts/master/jd_fruit.js
+Tasks: 东东萌宠 = type=cron,cronexp="5 6-18/6 * * *",wake-system=1,timeout=120,script-path=https://raw.githubusercontent.com/lxk0301/scripts/master/jd_pet.js
+Tasks: 京东种豆得豆 = type=cron,cronexp="1 7-21/2 * * *",wake-system=1,timeout=120,script-path=https://raw.githubusercontent.com/lxk0301/scripts/master/jd_plantBean.js
+Tasks: 天天加速 = type=cron,cronexp="8 */3 * * *",wake-system=1,timeout=20,script-path=https://raw.githubusercontent.com/lxk0301/scripts/master/jd_speed.js
+Tasks: 京东摇钱树 = type=cron,cronexp="3 */2 * * *",wake-system=1,timeout=20,script-path=https://raw.githubusercontent.com/lxk0301/scripts/master/jd_moneyTree.js
+Tasks: 京东宠汪汪 = type=cron,cronexp="15 */2 * * *",wake-system=1,timeout=20,script-path=https://raw.githubusercontent.com/lxk0301/scripts/master/jd_joy.js
+Tasks: 宠汪汪偷好友积分与狗粮 = type=cron,cronexp="0 0,6 * * *",wake-system=1,timeout=320,script-path=https://raw.githubusercontent.com/lxk0301/scripts/master/jd_joy_steal.js
+Tasks: 京东宠汪汪喂食 = type=cron,cronexp="15 */1 * * *",wake-system=1,timeout=20,script-path=https://raw.githubusercontent.com/lxk0301/scripts/master/jd_joy_feedPets.js
+Tasks: 宠汪汪积分兑换奖品 = type=cron,cronexp="0 0-16/8 * * *",wake-system=1,timeout=20,script-path=https://raw.githubusercontent.com/lxk0301/scripts/master/jd_joy_reward.js
+Tasks: 京小超 = type=cron,cronexp="11 1-23/5 * * *",wake-system=1,timeout=320,script-path=https://raw.githubusercontent.com/lxk0301/scripts/master/jd_superMarket.js
+Tasks: 京小超领蓝币 = type=cron,cronexp="0 0 0 * * *",wake-system=1,timeout=20,script-path=https://raw.githubusercontent.com/lxk0301/scripts/master/jd_blueCoin.js
+Tasks: 进店领豆 = type=cron,cronexp="10 0 * * *",wake-system=1,timeout=20,script-path=https://raw.githubusercontent.com/lxk0301/scripts/master/jd_shop.js
+Tasks: 宠汪汪邀请助力与赛跑助力 = type=cron,cronexp=15 10 * * *,wake-system=1,timeout=300,script-path=https://raw.githubusercontent.com/lxk0301/scripts/master/jd_joy_run.js,script-update-interval=0
+Tasks: 取关京东店铺商品 = type=cron,cronexp="55 23 * * *",wake-system=1,timeout=20,script-path=https://raw.githubusercontent.com/lxk0301/scripts/master/jd_unsubscribe.js
+Tasks: 摇京豆 = type=cron,cronexp="5 0 * * *",wake-system=1,timeout=20,script-path=https://raw.githubusercontent.com/lxk0301/scripts/master/jd_club_lottery.js
+Tasks: 京东全民开红包 = type=cron,cronexp=1 1 * * *,timeout=20,wake-system=1,script-path=https://raw.githubusercontent.com/lxk0301/scripts/master/jd_redPacket.js,script-update-interval=0
+Tasks: 叮咚买菜 = type=cron,cronexp=55 2 0 * * *,wake-system=1,script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/mcdd/mcdd.js,script-update-interval=0
+Tasks: 叮咚农场养鱼=type=cron,cronexp="1 8,12,17 * * *",wake-system=1,script-path=https://raw.githubusercontent.com/iepngs/Script/master/dingdong/index.js,timeout=600,script-update-interval=0
 
-Tasks: 去哪儿 = type=cron,cronexp=4 0 * * *,script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/qunar/qunar.js
-Tasks: 网易新闻 = type=cron,cronexp=4 0 * * *,script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/neteasenews/neteasenews.js
-Tasks: 10010 = type=cron,cronexp=0 9 * * *,script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/10010/10010.js,wake-system=true
-Tasks: 电信营业厅 = type=cron,cronexp=20 0 0 * * *,script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/10000/10000.js
-Tasks: 智行火车 = type=cron,cronexp=45 3 0 * * *,script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/zxhc/zxhc.js
-Tasks: 哈啰出行 = type=cron,cronexp=10 4 0 * * *,script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/hellobike/hellobike.js
-Tasks: BiliBili = type=cron,cronexp=2 0 * * *,script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/bilibili/bilibili.js,wake-system=true
-Tasks: WPS = type=cron,cronexp=0 9 * * *,script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/wps/wps.js,wake-system=true
-Tasks: 叮咚买菜 = type=cron,cronexp=7 0 * * *,script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/mcdd/mcdd.js,wake-system=true
-Tasks: 人人视频 = type=cron,cronexp=10 0 * * *,script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/rrtv/rrtv.js,wake-system=true
-Tasks: 什么值得买 = type=cron,cronexp=2 0 * * *,script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/smzdm/smzdm.js,wake-system=true
-Tasks: 喜马拉雅 = type=cron,cronexp=4 0 * * *,script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/ximalaya/ximalaya.js,wake-system=true
-Tasks: 百度贴吧 = type=cron,cronexp=1 0 * * *,script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/tieba/tieba.js,wake-system=true
-Tasks: 美团 = type=cron,cronexp=7 0 * * *,script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/meituan/meituan.js,wake-system=true
-Tasks: 时光相册 = type=cron,cronexp=7 0 * * *,script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/everphoto/everphoto.js,wake-system=true
-Tasks: 苏宁易购 = type=cron,cronexp=7 0 * * *,script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/suning/suning.js,wake-system=true
-Tasks: 顺丰速运 = type=cron,cronexp=6 0 * * *,script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/sfexpress/sfexpress.js,wake-system=true
-Tasks: 网易云音乐 = type=cron,cronexp=1 7 * * *,script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/neteasemusic/neteasemusic.js,wake-system=true
-Tasks: 字幕组 = type=cron,cronexp=3 0 * * *,script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/zimuzu/zimuzu.js,wake-system=true
-Tasks: 京喜签到 = type=cron,cronexp=1 9 * * *,script-path=https://raw.githubusercontent.com/Sunert/Scripts/master/Task/jingxi.js,wake-system=true
-Tasks: 滴滴出行 = type=cron,cronexp=0 6 0 * * *,script-path=https://raw.githubusercontent.com/Tartarus2014/Script/master/DiDi.js,wake-system=true
-Tasks: 滴滴出行 = type=cron,cronexp=0 59 23 * * *,script-path=https://raw.githubusercontent.com/zZPiglet/Task/master/DiDi/DiDi_reward.js,wake-system=true
-Tasks: 电视家 = type=cron,cronexp=0 0 7,22 * * *,script-path=https://raw.githubusercontent.com/Sunert/Scripts/master/Task/dianshijia.js,wake-system=true
-Tasks: 饿了么 = type=cron,cronexp=35 4 0 * * *,script-path=https://raw.githubusercontent.com/songyangzz/QuantumultX/master/elem/elemSign.js
-Tasks: 饿了么-打卡领红包= type=cron,cronexp=35 4 0 * * *,script-path=https://raw.githubusercontent.com/zZPiglet/Task/master/elem/elemCheckIn.js
-Tasks: 中国移动-查话费 = type=cron,cronexp=10 0 * * *,script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/10086/10086.fee.js,wake-system=true
-Tasks: 百果园 = type=cron,cronexp=10 0 * * *,script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/pagoda/pagoda.js,wake-system=true
-Tasks: 南方周末 = type=cron,cronexp=10 0 * * *,script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/nfzm/nfzm.js,wake-system=true
-Tasks: 奈雪 =type=cron,cronexp=35 5 0 * * *,script-path=https://raw.githubusercontent.com/zZPiglet/Task/master/Naixue/Naixue.js
-Tasks: 彩云天气 = type=cron,cronexp=0 0-21/3 * * *,script-path=https://raw.githubusercontent.com/Peng-YM/QuanX/master/Tasks/caiyun.js
-Tasks: 便利蜂 =type=cron,cronexp=35 5 0 * * *,script-path=https://raw.githubusercontent.com/zZPiglet/Task/master/Blibee/Blibee.js
-Tasks: 无忧行签到 = type=cron,cronexp=4 9 * * *,script-path=https://ooxx.be/js/jegotrip.js
-Tasks: 携程旅行 = type=cron,cronexp=45 4 0 * * *,script-path=https://raw.githubusercontent.com/nzw9314/QuantumultX/master/Task/ctrip.js
-Tasks: 威锋 = type=cron,cronexp=50 0 0 * * *,script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/feng/feng.js,script-update-interval=0
-Tasks: 汇率监控= type=cron,cronexp=8 0 * * *,script-path=https://raw.githubusercontent.com/Peng-YM/QuanX/master/Tasks/exchange.js
+Tasks: 去哪儿 = type=cron,cronexp=4 0 * * *,wake-system=1,script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/qunar/qunar.js
+Tasks: 网易新闻 = type=cron,cronexp=4 0 * * *,wake-system=1,script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/neteasenews/neteasenews.js
+Tasks: 10010 = type=cron,cronexp=0 9 * * *,wake-system=1,script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/10010/10010.js,wake-system=true
+Tasks: 电信营业厅 = type=cron,cronexp=20 0 0 * * *,wake-system=1,script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/10000/10000.js
+Tasks: 智行火车 = type=cron,cronexp=45 3 0 * * *,wake-system=1,script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/zxhc/zxhc.js
+Tasks: 哈啰出行 = type=cron,cronexp=10 4 0 * * *,wake-system=1,script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/hellobike/hellobike.js
+Tasks: BiliBili = type=cron,cronexp=2 0 * * *,wake-system=1,script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/bilibili/bilibili.js,wake-system=true
+Tasks: WPS = type=cron,cronexp=0 9 * * *,wake-system=1,script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/wps/wps.js,wake-system=true
+Tasks: 叮咚买菜 = type=cron,cronexp=7 0 * * *,wake-system=1,script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/mcdd/mcdd.js,wake-system=true
+Tasks: 人人视频 = type=cron,cronexp=10 0 * * *,wake-system=1,script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/rrtv/rrtv.js,wake-system=true
+Tasks: 什么值得买 = type=cron,cronexp=2 0 * * *,wake-system=1,script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/smzdm/smzdm.js,wake-system=true
+Tasks: 喜马拉雅 = type=cron,cronexp=4 0 * * *,wake-system=1,script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/ximalaya/ximalaya.js,wake-system=true
+Tasks: 百度贴吧 = type=cron,cronexp=1 0 * * *,wake-system=1,script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/tieba/tieba.js,wake-system=true
+Tasks: 美团 = type=cron,cronexp=7 0 * * *,wake-system=1,script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/meituan/meituan.js,wake-system=true
+Tasks: 时光相册 = type=cron,cronexp=7 0 * * *,wake-system=1,script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/everphoto/everphoto.js,wake-system=true
+Tasks: 苏宁易购 = type=cron,cronexp=7 0 * * *,wake-system=1,script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/suning/suning.js,wake-system=true
+Tasks: 顺丰速运 = type=cron,cronexp=6 0 * * *,wake-system=1,script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/sfexpress/sfexpress.js,wake-system=true
+Tasks: 网易云音乐 = type=cron,cronexp=1 7 * * *,wake-system=1,script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/neteasemusic/neteasemusic.js,wake-system=true
+Tasks: 字幕组 = type=cron,cronexp=3 0 * * *,wake-system=1,script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/zimuzu/zimuzu.js,wake-system=true
+Tasks: 京喜签到 = type=cron,cronexp=1 9 * * *,wake-system=1,script-path=https://raw.githubusercontent.com/Sunert/Scripts/master/Task/jingxi.js,wake-system=true
+Tasks: 滴滴出行 = type=cron,cronexp=0 6 0 * * *,wake-system=1,script-path=https://raw.githubusercontent.com/Tartarus2014/Script/master/DiDi.js,wake-system=true
+Tasks: 滴滴出行 = type=cron,cronexp=0 59 23 * * *,wake-system=1,script-path=https://raw.githubusercontent.com/zZPiglet/Task/master/DiDi/DiDi_reward.js,wake-system=true
+Tasks: 电视家 = type=cron,cronexp=0 0 7,22 * * *,wake-system=1,script-path=https://raw.githubusercontent.com/Sunert/Scripts/master/Task/dianshijia.js,wake-system=true
+Tasks: 饿了么 = type=cron,cronexp=35 4 0 * * *,wake-system=1,script-path=https://raw.githubusercontent.com/songyangzz/QuantumultX/master/elem/elemSign.js
+Tasks: 饿了么-打卡领红包= type=cron,cronexp=35 4 0 * * *,wake-system=1,script-path=https://raw.githubusercontent.com/zZPiglet/Task/master/elem/elemCheckIn.js
+Tasks: 中国移动-查话费 = type=cron,cronexp=10 0 * * *,wake-system=1,script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/10086/10086.fee.js,wake-system=true
+Tasks: 百果园 = type=cron,cronexp=10 0 * * *,wake-system=1,script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/pagoda/pagoda.js,wake-system=true
+Tasks: 南方周末 = type=cron,cronexp=10 0 * * *,wake-system=1,script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/nfzm/nfzm.js,wake-system=true
+Tasks: 奈雪 =type=cron,cronexp=35 5 0 * * *,wake-system=1,script-path=https://raw.githubusercontent.com/zZPiglet/Task/master/Naixue/Naixue.js
+Tasks: 彩云天气 = type=cron,cronexp=0 0-21/3 * * *,wake-system=1,script-path=https://raw.githubusercontent.com/Peng-YM/QuanX/master/Tasks/caiyun.js
+Tasks: 便利蜂 =type=cron,cronexp=35 5 0 * * *,wake-system=1,script-path=https://raw.githubusercontent.com/zZPiglet/Task/master/Blibee/Blibee.js
+Tasks: 无忧行签到 = type=cron,cronexp=4 9 * * *,wake-system=1,script-path=https://ooxx.be/js/jegotrip.js
+Tasks: 携程旅行 = type=cron,cronexp=45 4 0 * * *,wake-system=1,script-path=https://raw.githubusercontent.com/nzw9314/QuantumultX/master/Task/ctrip.js
+Tasks: 威锋 = type=cron,cronexp=50 0 0 * * *,wake-system=1,script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/feng/feng.js,script-update-interval=0
+Tasks: 汇率监控= type=cron,cronexp=8 0 * * *,wake-system=1,script-path=https://raw.githubusercontent.com/Peng-YM/QuanX/master/Tasks/exchange.js
 Tasks: 世界时间 = script-path=https://raw.githubusercontent.com/nzw9314/QuantumultX/master/Task/time.js,tag=世界时间,type=cron,cronexp=0 0 8 * * *
 Tasks: 每日一句+蚂蚁森林收能量 = script-path=https://raw.githubusercontent.com/nzw9314/QuantumultX/master/yichahucha/cron_daily.js,type=cron,cronexp=0 30 7 * * *
 Tasks: 一言+历史上的今天 = script-path=https://raw.githubusercontent.com/nzw9314/QuantumultX/master/Meeta/Surge/Scripting/Calendar.js,type=cron,cronexp=0 0 8 * * *
 
 
+// cookie 获取
 Rewrite: 京东Cookie = type=http-request,pattern=https:\/\/api\.m\.jd\.com\/client\.action.*functionId=signBean,script-path=https://raw.githubusercontent.com/NobyDa/Script/master/JD-DailyBonus/JD_DailyBonus.js
 Rewrite: 京东到家.js = script-path=https://raw.githubusercontent.com/Sunert/Scripts/master/Task/jddj.js,type=http-request,pattern=https:\/\/daojia\.jd\.com\/client\?_jdrandom=\d{13}&functionId=%2Fsignin
 Rewrite: 来客有礼Cookie.js = type=http-request,pattern=https:\/\/draw\.jdfcloud\.com\/\/api\/bean\/square\/silverBean\/task\/get\?,script-path=https://raw.githubusercontent.com/Sunert/Scripts/master/Task/lkyl.js
 Rewrite: 叮咚买菜cookie.js = script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/mcdd/mcdd.cookie.js,type=http-request,pattern=^https:\/\/maicai.api.ddxq.mobi\/point\/home
 Rewrite: 叮咚农场养鱼.js = type=http-request,pattern=https:\/\/maicai\.api\.ddxq\.mobi\/user\/checkLogin,script-path=https://raw.githubusercontent.com/iepngs/Script/master/dingdong/index.js
 Rewrite: 宠汪汪强制为别人助力.js= type=http-request,pattern=(^https:\/\/draw\.jdfcloud\.com\/\/pet\/enterRoom\?reqSource=weapp&invitePin=.*+(&inviteSource=task_invite&shareSource=\w+&inviteTimeStamp=\d+&openId=\w+)?|^https:\/\/draw\.jdfcloud\.com\/\/pet\/helpFriend\?friendPin),requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/lxk0301/scripts/master/jd_joy_help.js
-Rewrite: 宠汪汪邀请助力与赛跑助力.js = type=cron,cronexp="15 10 * * *",wake-system=1,timeout=20,script-path=https://raw.githubusercontent.com/lxk0301/scripts/master/jd_joy_run.js
 Rewrite: 宠汪汪助力更新Token.js = type=http-response,pattern=^https:\/\/draw\.jdfcloud\.com\/\/api\/user\/addUser\?code=\w+&, requires-body=1, max-size=0, script-path=https://raw.githubusercontent.com/lxk0301/scripts/master/jd_joy_run.js
 Rewrite: 宠汪汪助力获取Token.js = type=http-request,pattern=^https:\/\/draw\.jdfcloud\.com\/\/api\/bean\/square\/silverBean\/task\/get\?, requires-body=1, max-size=0, script-path=https://raw.githubusercontent.com/lxk0301/scripts/master/jd_joy_run.js
 Rewrite: 聚宝盆投狗粮辅助.js = type=http-response,pattern=^https:\/\/jdjoy\.jd\.com\/pet\/getPetTreasureBox|^https:\/\/draw\.jdfcloud\.com\/\/pet\/getPetTreasureBox,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/lxk0301/scripts/master/jd_petTreasureBox.js
