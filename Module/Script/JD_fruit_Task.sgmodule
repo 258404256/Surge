@@ -60,13 +60,23 @@
 # > 取关京东店铺商品
 取关京东店铺商品 = type=cron,cronexp=55 23 * * *,script-path=https://raw.githubusercontent.com/lxk0301/scripts/master/jd_unsubscribe.js,script-update-interval=0
 
+摇京豆 = type=cron,cronexp="5 0 * * *",wake-system=1,timeout=20,script-path=https://raw.githubusercontent.com/lxk0301/scripts/master/jd_club_lottery.js,script-update-interval=0
+
+京东全民开红包 = type=cron,cronexp=1 1 * * *,wake-system=1,timeout=20,script-path=https://raw.githubusercontent.com/lxk0301/scripts/master/jd_redPacket.js,script-update-interval=0
+
 # 叮咚买菜
 # 打开 APP, 访问下`我的`>`积分`
 叮咚买菜 = type=cron,cronexp=55 2 0 * * *,script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/mcdd/mcdd.js,script-update-interval=0
 
 # > 叮咚农场养鱼(By iepngs)
 # 叮咚买菜App - 右下角"我的"- 叮咚农场
-叮咚农场养鱼=type=cron,cronexp="1 8,12,17 * * *",script-path=https://raw.githubusercontent.com/iepngs/Script/master/dingdong/index.js,wake-system=true,timeout=600
+叮咚农场养鱼=type=cron,cronexp="1 8,12,17 * * *",script-path=https://raw.githubusercontent.com/iepngs/Script/master/dingdong/index.js,wake-system=1,timeout=600
+
+
+
+
+
+
 
 # > 京东到家 (By @barrymchen, @GideonSenku & @Macsuny)
 jddj.js = script-path=https://raw.githubusercontent.com/Sunert/Scripts/master/Task/jddj.js,type=http-request,pattern=https:\/\/daojia\.jd\.com\/client\?_jdrandom=\d{13}&functionId=%2Fsignin
@@ -77,8 +87,6 @@ jddj.js = script-path=https://raw.githubusercontent.com/Sunert/Scripts/master/Ta
 # > 来客有礼宠汪汪强制助力(By lxk0301)
 # 从京东APP宠汪汪->领狗粮->邀请好友助力，分享给你小号微信或者微信的文件传输助手。 自己再打开刚才的分享，助力成功后，退出小程序重新进去刚才分享的小程序即可
 jd_joy_help.js = type=http-request,pattern=(^https:\/\/draw\.jdfcloud\.com\/\/pet\/enterRoom\?reqSource=weapp&invitePin=.*+(&inviteSource=task_invite&shareSource=\w+&inviteTimeStamp=\d+&openId=\w+)?|^https:\/\/draw\.jdfcloud\.com\/\/pet\/helpFriend\?friendPin),requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/lxk0301/scripts/master/jd_joy_help.js
-
-
 
 # > 宠汪汪助力更新Token
 宠汪汪助力更新Token = type=http-request,pattern=^https:\/\/draw\.jdfcloud\.com\/\/api\/user\/addUser\?code=\w+&,script-path=https://raw.githubusercontent.com/lxk0301/scripts/master/jd_joy_run.js,script-update-interval=0
