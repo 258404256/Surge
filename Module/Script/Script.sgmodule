@@ -19,4 +19,4 @@ Rewrite: calm.js = type=http-response,pattern=https://api.calm.com/(me|device|io
 
 
 [MITM]
-hostname = %INSERT% *.kuwo.cn, vip1.kuwo.cn, *.xxjjappss.com, account.wps.*, api.vuevideo.net, snailsleep.net, music.snailsleep.net, community.snailsleep.net, api.bjxkhc.com, p.du.163.com, ap*.intsig.net, chic.mtlab.meitu.com, *.faceu.mobi, pay.wecut.com, api.calm.com
+hostname = %APPEND% *.kuwo.cn, vip1.kuwo.cn, *.xxjjappss.com, account.wps.*, api.vuevideo.net, snailsleep.net, music.snailsleep.net, community.snailsleep.net, api.bjxkhc.com, p.du.163.com, ap*.intsig.net, chic.mtlab.meitu.com, *.faceu.mobi, pay.wecut.com, api.calm.com
