@@ -63,6 +63,7 @@ Tasks: 世界时间 = script-path=https://raw.githubusercontent.com/nzw9314/Quan
 Tasks: 每日一句+蚂蚁森林收能量 = script-path=https://raw.githubusercontent.com/nzw9314/QuantumultX/master/yichahucha/cron_daily.js,type=cron,cronexp=0 30 7 * * *
 Tasks: 一言+历史上的今天 = script-path=https://raw.githubusercontent.com/nzw9314/QuantumultX/master/Meeta/Surge/Scripting/Calendar.js,type=cron,cronexp=0 0 8 * * *
 Tasks: 京东价格提醒 = type=cron,cronexp=9 0 * * *,wake-system=1,script-path=https://raw.githubusercontent.com/toulanboy/scripts/master/jd_price_detect/jd_price_detect.js,timeout=600
+Tasks: 京东特权活力值 = type=cron,cronexp=5 8 * * *,wake-system=1,script-path=https://raw.githubusercontent.com/iisams/Scripts/master/liwo/jdtqz.js
 
 
 
