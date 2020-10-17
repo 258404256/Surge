@@ -60,6 +60,8 @@ Tasks: 携程旅行 = type=cron,cronexp=45 4 0 * * *,wake-system=1,script-path=h
 Tasks: 威锋 = type=cron,cronexp=50 0 0 * * *,wake-system=1,script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/feng/feng.js,script-update-interval=0
 Tasks: 汇率监控= type=cron,cronexp=8 0 * * *,wake-system=1,script-path=https://raw.githubusercontent.com/Peng-YM/QuanX/master/Tasks/exchange.js
 Tasks: 世界时间 = script-path=https://raw.githubusercontent.com/nzw9314/QuantumultX/master/Task/time.js,tag=世界时间,type=cron,cronexp=0 0 8 * * *
+Tasks: 倒数日 = type=cron,cronexp=30 8 * * *,wake-system=1,script-path=https://github.com/congcong0806/surge-list/raw/master/Script/daysmatter.js
+Tasks: 今日时间 = type=cron,cronexp=0 8-22 * * *,wake-system=1,script-path=https://github.com/congcong0806/surge-list/raw/master/Script/time.js
 Tasks: 每日一句+蚂蚁森林收能量 = script-path=https://raw.githubusercontent.com/nzw9314/QuantumultX/master/yichahucha/cron_daily.js,type=cron,cronexp=0 30 7 * * *
 Tasks: 一言+历史上的今天 = script-path=https://raw.githubusercontent.com/nzw9314/QuantumultX/master/Meeta/Surge/Scripting/Calendar.js,type=cron,cronexp=0 0 8 * * *
 Tasks: 京东价格提醒 = type=cron,cronexp=9 0 * * *,wake-system=1,script-path=https://raw.githubusercontent.com/toulanboy/scripts/master/jd_price_detect/jd_price_detect.js,timeout=600
