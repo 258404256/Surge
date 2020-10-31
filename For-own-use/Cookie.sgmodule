@@ -153,8 +153,7 @@ http-request  https:\/\/m\.ximalaya\.com\/speed\/task-center\/account\/coin scri
 # dompling  (www.cuuc.club,m.xiaomiyoupin.com)
 http-request ^https:\/\/m\.xiaomiyoupin\.com\/api\/auth\/login\/isloggedin script-path=https://raw.githubusercontent.com/dompling/Script/master/xiaomiyp/xiaomiyp.cookie.js, tag=小米有品
 http-request ^https:\/\/www\.cuuc\.club\/user\/checkin script-path=https://raw.githubusercontent.com/dompling/Script/master/cuuc/cuuc.cookie.js, tag=CU 云加速
-http-response ^https:\/\/app\.ymatou\.com\/api\/trading\/scartprodnum script-path=https://raw.githubusercontent.com/dompling/Script/master/ymatou/ymatou.cookie.js, tag=yamatou
-
+ymatou.js = type=http-request,pattern=^https:\/\/app\.ymatou\.com\/api\/trading\/scartprodnum,script-path=https://raw.githubusercontent.com/dompling/Script/master/ymatou/ymatou.cookie.js,debug=true
 # XidNDD  (operation-api.jimistore.com,hongbao.youzikuaibao.com,jdread-api.jd.com,getconfig-globalapi.zymk.cn,wox2019.woxshare.com,appsmall.rtmap.com,choujiang-server.deering.cn,api.momosyb.com,*.zhuishushenqi.com)
 http-request ^http?:\/\/hongbao\.youzikuaibao\.com\/youzi\/* script-path=https://raw.githubusercontent.com/XidNDD/2020scripts/master/yzkbSign.js, timeout=10, tag=柚子快报
 http-request ^https:\/\/jdread-api\.jd\.com\/* script-path=https://raw.githubusercontent.com/XidNDD/2020scripts/master/jddsSign.js, timeout=10, tag=京东读书签到
